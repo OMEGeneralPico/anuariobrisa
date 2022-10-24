@@ -75,7 +75,13 @@ body{
     font-style: italic;
 }
 #home .large-header {
-	background-image: url('../images/colores\ frente');
+	background-image: url('../images/colores_frente.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;  
+    /* background-image: url('../images/colores\ frente');  */
+
 	background-position: center;
 }
 .home-main {
