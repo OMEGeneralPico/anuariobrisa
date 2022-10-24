@@ -24,12 +24,16 @@ body{
     margin-top: 50px;
 }
 .btn-custom{
-    background-color: #fff;
+    background-color: #3A3939;
     color: #fff;
     border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
 }
 .btn-custom:hover,.btn-custom:active,.btn-custom:focus{
-    background-color: #3A3939;
+    background-color: #00A27F;
     color: #fff;
     outline: none;
 }
